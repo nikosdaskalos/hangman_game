@@ -1,0 +1,215 @@
+
+body {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+
+
+/* περιθώρια των divs */
+div { 
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* στιλ παραγράφου */
+p {
+	font-size: 17px;
+}
+
+/* κουμπί submit χρησιμοποιείτε και αλλού */
+input[type=submit] {
+	display: inline-block;
+	padding: 6px 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #333;
+	background-color: #f5f589;
+	border-color: #ccc;
+}
+/* κουμπί help */
+input[type=help] {
+	display: inline-block;
+	padding: 6px 15px;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #333;
+	background-color:#ffd500;
+	border-color: #ccc;
+}
+
+/* οταν περνάει ο κέρσορας απο πάνω */
+input[type=help]:hover {
+	color: #333;
+	background-color: #ebf55a;
+	border-color: #ebf55a;
+}
+
+/* όταν περνάει ο κέρσορας απο πάνω*/
+input[type=submit]:hover {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+
+.btn {
+  display: block;
+  background: red;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* στιλ έρορ */
+.error {
+	color: red;
+}
+
+
+
+/* θέση περιεχομένου */
+#content {
+	width: 800px;
+	height: 680px;
+	margin:0 auto;
+	background-color: #f5cf9f;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 4px 4px 0 0;
+	box-shadow: none;
+	position: relative;
+	padding: 45px 15px 15px;
+	border-style: solid;
+}
+
+
+
+
+/* ρύθμιση στυλ υπόλοιπων */
+#word_display {
+	font-weight: bold;
+	color: green;
+}
+
+#login_signup {
+	float: right;
+}
+
+#logout {
+	float: right;
+	color:orange;
+	font-weight: bold;
+}
+
+#scoreboard {
+	float: right;
+	margin-left: 20px;
+ 	margin-right: 10px;
+}
+
+#reset {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#game_help{
+	margin-top: 50px;
+	margin-left: 20px;
+
+}
+
+#word_upload {
+	margin-top: 275px;
+}
+
+#fillin {
+	font-size: 24px;
+}
+
+.alpha {
+	font-size: 24px;
+}
+
+.win {
+	color: green;
+	font-weight: bold;
+}
+
+.reset {
+	color: orange;
+	font-weight: bold;
+}
+
+.game_message, .loss{
+	color: red;
+	font-weight: bold;
+}
+
+.wrapper{
+	background-image: url(images.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 100%; 
+	background-position: center;
+}
+
+#timer{
+	background-color:#419D78;
+  color:#EFD0CA;
+  font-size:20px;
+  text-align:center;
+}
+body, html {
+  height: 100%;
+}
+
+.help{
+		background-color:#fff200;
+}
+
+
+#sound{
+	float: right;
+	margin-left: 20px;
+ 	margin-right: 10px;
+ 	bottom:0;
+	color: orange
+
+ 
+}
+
+
+
